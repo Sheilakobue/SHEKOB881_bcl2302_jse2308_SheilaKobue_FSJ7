@@ -1,11 +1,7 @@
-import React from 'react'
-import classes from './logo.module.css'
+import classes from './logo.module.css';
 
-export default function Logo() {
-  return (
-    <div className={classes.logo}>
-    Sheila's Next Blog      
-    </div>
-  )
-  
+function Logo() {
+  return <div className={classes.logo}>Max' Next Blog</div>;
 }
+
+export default Logo;
