@@ -1,3 +1,4 @@
+//defines the general structure of our pages{class base component}
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
