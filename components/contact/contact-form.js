@@ -15,7 +15,7 @@ async function sendContactData(contactDetails) {
   const data = await response.json();
 
   if (!response.ok) {
-    throw new Error(data.message || 'Something went wrong!');
+    throw new Error(data.message || 'Something went wrong!!');
   }
 }
 
@@ -74,7 +74,7 @@ function ContactForm() {
     notification = {
       status: 'success',
       title: 'Success!',
-      message: 'Message sent successfully!',
+      message: 'Message sent successfully!!!',
     };
   }
 
